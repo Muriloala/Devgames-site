@@ -1,0 +1,914 @@
+body {
+  background: #2d2c2c;
+  padding: 0;
+}
+/* inicio Navbar*/
+/* inicio Navbar maior*/
+.nav-primary {
+  background: #0f0e0e;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  height: 81px;
+  width: 151px;
+  margin-left: 150px;
+}
+.icon-nav {
+  height: 30px; 
+  width: 30px; 
+  margin-right: 150px;
+}
+
+.icon-search{
+  color: #DAA520;
+  position: absolute;
+  right:705px;
+  top: 30px;
+  text-align: center;
+}
+/* final Navbar maior*/
+/* inicio Navbar menor*/
+.nav-secundary {
+  background: #000;
+  text-align: center;
+  align-items: center;
+}
+.nav-div {
+  color: #dddddd;
+  font-size: 12px; 
+}
+.sem-icon {
+  font-size: 14px;
+}
+.sem-icon:hover {
+  font-weight: bold;
+}
+.icon-ps5{
+  height: 20px !important;
+  width: 30px !important;
+}
+.icon-acessor{
+  height: 25px !important;
+  width: 45px !important;
+}
+.icon-ps4-responsive{
+  height: 15px !important;
+  width: 27px !important;
+}
+.icon-xbox-responsive{
+  height: 20px !important;
+  width: 35px !important;
+}
+.icon-niten-responsive{
+  height: 23px !important;
+  width: 23px !important;
+}
+/* final Navbar menor*/
+/* final Navbar*/
+
+/* inicio carrossel de cards*/
+.linha {
+  border-top: 3px solid #C9A965;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.texto {
+  font-size: 22px;
+  color: #D1BB7E;
+  background-color: #2d2c2c;
+  padding: 0 15px;
+  position: relative;
+  top: -20px;
+  font-family: Georgia;
+}
+.cards-lancamento {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+/* final carrossel de cards*/
+
+/* inicio de cards edit geral*/
+.cards-games {
+  padding-left: 200px;
+  padding-right: 200px;
+  cursor:auto;
+  text-decoration: underline #ffffff;
+}
+.card-effect:hover{
+  border-color: #2d2c2c;
+  border-width: 10px;
+  cursor: pointer;
+}
+.image-card {
+  padding:  15px;
+}
+.conteudo-card{
+  text-align: center;
+}
+.card-button{
+  background: #DAA520;
+  border-radius: 20px;
+  width: 150px;
+  border-color: #DAA520;
+  text-align: center;
+}
+.card-button:hover{
+  background: #0f0e0e;
+  font-weight: bold;
+}
+/* final de cards edit geral*/
+
+/* inicio do footer*/
+.footer {
+  background: #000;
+  height: 400px;
+  margin-top: 200px;
+}
+.img-footer{
+  padding-left: 10%;
+  padding-bottom: 30px;
+  display: inline-block;
+}
+.text-iformations-footer{
+  display: inline-block;
+  margin-left: 50px;
+  color: #dbdbdb;
+  margin-top: 100px;
+}
+.text-history-footer{
+  display: inline-block;
+  margin-left: 70px;
+  color: #dbdbdb;
+  margin-top: 100px;
+}
+.socialmedia-footer{
+  display: inline-block;
+  margin-left: 400px;
+  color: #dbdbdb;
+  margin-top: 100px;
+}
+.img-meta-icon-footer{
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+}
+.img-alls-icon-footer{
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+}
+.txt-footer-icon{
+  display: inline-block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.copyright{
+  color: #D1BB7E;
+  font-family: 'Righteous';
+  font-size: 12px;
+  text-align: center;
+}
+/* final do footer*/
+
+/* inicio edit modals da subnav */
+/* inicio edit para todos os modals da subnav */
+.modal-header{
+  border: none;
+  padding: 0px;
+  padding-right: 12px;
+  padding-top: 10px;
+  color: #000;
+}
+.modal-body{
+  padding-top: 2px;
+}
+.modal-footer{
+  padding: 0px;
+  border: none;
+}
+/* final edit para todos os modals da subnav */
+/* inicio edit para modal de acessorio*/
+.modalnavacessor{
+  top: 14.5%;
+  width: 190px;
+  right: 6%;
+}
+.modal-acessor-all {
+  border-radius: 0;
+  background-image: linear-gradient(to bottom, #f4f4f4 70px, #9e03e1, #58027d);
+}
+.icon-acessor-02{
+  width: 100px;
+  height: 120px;
+  align-items: left;
+  margin-right: 48%;
+  margin-top: 20%;
+  margin-bottom: 0;
+}
+.icon-acessor-01{
+  width: 120px;
+  height: 100px;
+}
+.options-subnav-modal-acessor{
+  list-style: none;
+  cursor: pointer;
+}
+.options-subnav-modal-acessor p:hover{
+  text-decoration: underline;
+}
+.options-subnav-modal{
+  list-style: none;
+  cursor: pointer;
+  padding-bottom: 10%;
+}
+.options-subnav-modal p:hover{
+  text-decoration: underline;
+}
+.acessoroverrigtn{
+  left: 770px;
+}
+/* final edit para modal de acessorio*/
+/* inicio edit para modal de ps5*/
+.modalnavps5{
+  top: 14.5%;
+  width: 190px;
+  right: -1%;
+}
+.modal-ps5-all{
+  border-radius: 0;
+  background-image: linear-gradient(to bottom, #f4f4f4 87px, #00A3FF, #042285);
+}
+.iconfooter-ps5 {
+  width: 120px;
+  height: 190px;
+}
+.ps5overbtnleft{
+  left: 188px;
+}
+.ps5overbtnrigth{
+  left: 880px;
+}
+/* final edit para modal de ps5*/
+/* inicio edit para modal de ps4*/
+.modalnavps4{
+  top: 14.5%;
+  width: 190px;
+  right: -7.7%;
+}
+.modal-ps4-all{
+  border-radius: 0;
+  background-image: linear-gradient(to bottom, #f4f4f4 87px, #0F00B9, #1000C4);
+}
+.icon-ps4{
+  width: 170px;
+  height: 180px;
+}
+.ps4overbtnleft{
+  left: 90px;
+}
+.ps4overbtnrigth{
+  left: 983px;
+}
+/* final edit para modal de ps4*/
+/* inicio edit para modal de xbox*/
+.modalnavxbox{
+  top: 14.5%;
+  width: 190px;
+  right: -16%;
+}
+.modal-xbox-all{
+  border-radius: 0;
+  background-image: linear-gradient(to bottom, #f4f4f4 87px, #06940B, #025c05);
+}
+.icon-xbox{
+  width: 190px;
+  height: 200px;
+}
+.xboxbtnleft{
+  left: 217px;
+}
+.xboxbtnrigth{
+  left: 1110px;
+}
+/* final edit para modal de xbox*/
+/* inicio edit para modal de nitendo*/
+.modalnavnitendo{
+  top: 14.5%;
+  width: 190px;
+  right: -25.5%;
+}
+.modal-nitendo-all{
+  border-radius: 0;
+  background-image: linear-gradient(to bottom, #f4f4f4 87px, #FF0000, #cd0000);
+}
+.icon-nitendo{
+  width: 200px;
+  height: 220px;
+}
+.nitenoverbtnleft{
+  left: 365px;
+}
+.nitenoverbtnrigth{
+  left: 1256px;
+}
+/* inicio edit para modal de nitendo*/
+/* final edit modals da subnav */
+
+/* Inicio edit modal de button login Navbar maior */
+.modallog{
+  top: 7%;
+  width: 350px;
+  right: -37%;
+}
+.modlogingrau{
+  transform: rotate(45deg);
+  left: 1235px;
+}
+/* inicio edit do lado esquerdo do modal*/
+.divleft-login{
+  display: inline-block;
+  border-right: 2px solid #ACACAC;
+  padding-right: 10px;  
+}
+.logo-black{
+  width: 125px;
+  height: 75px;
+}
+/* final edit do lado esquerdo do modal*/
+/* inicio edit do lado direito do modal*/
+.divrigth-login{
+  display: inline-block;
+}
+.icons-option-login-ico{
+  width: 24px;
+  height: 27px;
+}
+.icons-option-login-inf, .icons-option-login-list{
+  width: 22px;
+  height: 25px;
+}
+.modal-login-body{
+  padding-bottom: 20px;
+  padding-right: 0;
+}
+.btn-modal-enter{
+  padding-left: 22px;
+  padding-right: 22px;
+  background: #f4be34;
+  border: none;
+  margin-left: 12px;
+}
+.btn-modal-enter:hover, .btn-enter-txt:hover {
+  background: #000;
+  color: #ffffff;
+}
+.btn-enter-txt{
+  font-size: 17px;
+  color: #000;
+  font-weight: bold;
+}
+.ico-inf-footer{
+  margin-top: 75px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.ico-list-body{
+  margin-left: 20px;
+  font-family: 'Recursive';
+  font-size: 17px; 
+  cursor: pointer;
+}
+.ico-log-header{
+  margin-left: 20px;
+  font-size: 17px; 
+  font-family: 'Recursive';
+  cursor: pointer;
+}
+.ico-list-body:hover, .ico-log-header:hover{
+  font-weight: bold;
+}
+.ico-inf-footer:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* final edit do lado direito do modal*/
+/* final edit modal de button login Navbar maior */
+
+/* inicio da retirada de efeitos de LINK dos modals*/
+.decoration-links{
+  color: inherit;
+  text-decoration: none;
+}
+.decoration-links:hover{
+  color: inherit;
+  text-decoration: none;
+}
+/*final da retirada de efeitos de LINK dos modals*/
+
+/*Inicio da aba de produtos*/
+.img-principal-compra{
+  background: #ffffff;
+  width: 350px;
+  height: 430px;
+  text-align: center;
+  margin-left: 48px;
+}
+.img-demontrativa{
+  width: 300px;
+  height: 420px;
+}
+.imgs-secundarias{
+  margin-left: 10%;
+}
+.imgmini01, .imgmini02{
+  width: 65px;
+  height: 55px;
+}
+.imgmini03{
+  width: 70px;
+  height: 55px;
+}
+.lado-direito-compra{
+  position: absolute;
+  left: 47%;
+}
+.lado-direito-compra h1{
+  border-bottom: 2px solid #C9A965;
+  padding-bottom: 15px;
+  width: 102%;
+  color: #C9A965;
+  font-family: 'Recursive';
+}
+.lado-direito-compra h2{
+  color: #C9A965;
+  font-size: 45px;
+  text-decoration: black;
+  text-shadow: #000;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.imgs-buypage-icon-payment{
+  width: 50px;
+  height: 40px;
+  margin-right: 7px;
+}
+.payment-cartao{
+  color: #ffffff;
+  font-size: 25px;
+}
+.btn-comprar{
+  background: #f4be34;
+  width: 300px;
+  font-size: 25px;
+  margin-top: 20px;
+  border: none;
+}
+.btn-comprar:hover{
+  background: #000;
+  font-weight: bold;
+}
+.lado-direito-compra a{
+  font-weight: bold;
+}
+.body-buy-page{
+  background: #181616;
+  margin-left: 17%;
+  margin-top: 1.5%;
+  display: inline-block;
+  border-radius: 10px;
+  width: 1000px;
+}
+.description-line{
+  border-top: 3px solid #C9A965;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.description-text{
+  font-size: 22px;
+  color: #D1BB7E;
+  background-color: #181616;
+  padding: 0 15px;
+  position: relative;
+  top: -20px;
+  font-family: Georgia;
+}
+/*final da aba de produtos*/
+
+/*inicio de estilos gerais das paginas de escollha de produtos*/
+.barra-options-lateral{
+  background: #101010;
+  margin-left: 15%;
+  color: #ffffff;
+  width: 260px;
+  display: inline-block;
+}
+.title-bar-lateral{
+  color: #D1BB7E;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 2px solid #D1BB7E; 
+  font-weight: bold;
+}
+.options-bar{
+  color: #D1BB7E;
+}
+.options-bar p{
+  font-size: 17px;
+  cursor: pointer;
+}
+.options-bar p:hover{
+  background: #000;
+}
+.btn-bar-lateral{
+  width: 260px;
+  background: #D1BB7E;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-top: 15px;
+  color: #ffffff;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn-bar-lateral:hover{
+  background: #000;
+  color: #ffffff;
+  font-weight: bold;
+}
+.card-selector-alls{
+  left: 660px;
+  padding-right: 100px;
+  position: absolute;
+  top: 255px;
+}
+.card-selector-footer{
+  padding-left: 660px;
+  padding-right: 240px;
+  margin-top: 272px;
+  height: 450px;
+}
+/*final de estilos gerais das paginas de escollha de produtos*/
+.img-principal-compra{
+  background: #ffffff;
+  width: 350px;
+  height: 430px;
+  text-align: center;
+  margin-left: 48px;
+}
+.img-demontrativa{
+  width: 300px;
+  height: 420px;
+}
+.imgs-secundarias{
+  margin-left: 10%;
+}
+.imgmini01, .imgmini02{
+  width: 65px;
+  height: 55px;
+}
+.imgmini03{
+  width: 70px;
+  height: 55px;
+}
+.lado-direito-compra{
+  position: absolute;
+  left: 47%;
+}
+.lado-direito-compra h1{
+  border-bottom: 2px solid #C9A965;
+  padding-bottom: 15px;
+  width: 102%;
+  color: #C9A965;
+  font-family: 'Recursive';
+}
+.lado-direito-compra h2{
+  color: #C9A965;
+  font-size: 45px;
+  text-decoration: black;
+  text-shadow: #000;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.imgs-buypage-icon-payment{
+  width: 50px;
+  height: 40px;
+  margin-right: 7px;
+}
+.payment-cartao{
+  color: #ffffff;
+  font-size: 25px;
+}
+.btn-comprar{
+  background: #f4be34;
+  width: 300px;
+  font-size: 25px;
+  margin-top: 20px;
+  border: none;
+}
+.btn-comprar:hover{
+  background: #000;
+  font-weight: bold;
+}
+.lado-direito-compra a{
+  font-weight: bold;
+}
+.body-buy-page{
+  background: #181616;
+  margin-left: 17%;
+  margin-top: 1.5%;
+  display: inline-block;
+  border-radius: 10px;
+  width: 1000px;
+}
+.description-line{
+  border-top: 3px solid #C9A965;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.description-text{
+  font-size: 22px;
+  color: #D1BB7E;
+  background-color: #181616;
+  padding: 0 15px;
+  position: relative;
+  top: -20px;
+  font-family: Georgia;
+}
+.formulario-cadastro{
+  text-align: center;
+}
+.logo-login-page, .logo-cadastro-page{
+  height: 300px;
+  width: 450px;
+}
+.input-login, .input-cadastro{
+  background: #2d2c2c ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #D1BB7E;
+  color: #ffffff;
+  font-size: 30px;
+  width: 500px;
+  outline: none;
+}
+.input-login::placeholder, .input-cadastro::placeholder{
+  color: #867444;
+}
+.btn-login-page, .btn-cadastro-page{
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 100px;
+  border-radius: 20px;
+  background: #fad367;
+}
+.btn-login-page:hover, .btn-cadastro-page:hover {
+  background: #000;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.8) brightness(100%) sepia(00%) saturate(0000%) hue-rotate(20deg);
+}
+.link-redirect{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+.link-destaque-redirect{
+  color: #D1BB7E;
+  cursor: pointer;
+  text-decoration: none;
+}
+.link-destaque-redirect:hover{
+  color: #D1BB7E;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.login-page{
+  text-align: center;
+  margin-top: 150px;
+}
+.formulario-cadastro{
+  text-align: center;
+}
+.logo-login-page, .logo-cadastro-page{
+  height: 300px;
+  width: 450px;
+}
+.input-login, .input-cadastro{
+  background: #2d2c2c ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #D1BB7E;
+  color: #ffffff;
+  font-size: 30px;
+  width: 500px;
+}
+.input-login::placeholder, .input-cadastro::placeholder{
+  color: #867444;
+}
+.btn-login-page, .btn-cadastro-page{
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 100px;
+  border-radius: 20px;
+  background: #fad367;
+}
+.btn-login-page:hover, .btn-cadastro-page:hover {
+  background: #000;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.8) brightness(100%) sepia(00%) saturate(0000%) hue-rotate(20deg);
+}
+.link-redirect{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+.link-destaque-redirect{
+  color: #D1BB7E;
+  cursor: pointer;
+  text-decoration: none;
+}
+.link-destaque-redirect:hover{
+  color: #D1BB7E;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 400px){
+  .icon-ps5{
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .icon-acessor{
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .responsive-txt{
+    font-size: 0px;
+  }
+  .icon-ps4-responsive{
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .icon-xbox-responsive{
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .icon-niten-responsive{
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .cards-lancamento {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nav-primary{
+    width: 700px !important;
+    height: 150px;
+  }
+  .logo {
+    height: 90px;
+    width: 170px;
+    position: absolute;
+    margin-left: 185px;
+  }
+  .search {
+    position: absolute;
+    margin-top: 40px;
+    width: 300px !important;
+    margin-left: 110px;
+  }
+  .lupanav{
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .login-responsive{
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .icon-nav{
+    margin-right: 0px;
+  }
+  .car-responsive{
+    margin-right: 150px;
+    height: 42px !important;
+    width: 42px !important;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .icon-search{
+    left: 800px;
+  }
+  .imgs-carrousel{
+    width: 1920px;
+  }
+  .texto {
+    font-size: 30px;
+    top: -27px;
+  }
+  .cards-lancamento {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .cards-games {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .ModalNav{
+    top: 9.6%;
+  }
+
+  .modalnavacessor{
+    top: 9.8%;
+    width: 190px;
+    right: 6%;
+  }
+  .modalnavps5{
+    top:  9.8%;
+    width: 190px;
+    right: -1%;
+  }
+  .modalnavps4{
+    top: 9.8%;
+    width: 190px;
+    right: -7.7%;
+  }
+  .modalnavxbox{
+    top: 9.8%;
+    width: 190px;
+    right: -16%;
+  }
+  .modalnavnitendo{
+    top: 9.8%;
+    width: 190px;
+    right: -25.5%;
+  }
+  .modallog{
+    top: 5%;
+    width: 350px;
+    right: -30.5%;
+  }
+  .modlogingrau{
+    transform: rotate(45deg);
+    left: 1430px;
+  }
+  .acessoroverbtnleft{
+    left: 170px;
+  }
+  .acessoroverrigtn{
+    left: 941px;
+  }
+  .ps5overbtnleft{
+    left: 384px;
+  }
+  .ps5overbtnrigth{
+    left: 1075px;
+  }
+  .ps4overbtnleft{
+    left: 313px;
+  }
+  .ps4overbtnrigth{
+    left: 1205px;
+  }
+  .xboxbtnleft{
+    left: 472px;
+  }
+  .xboxbtnrigth{
+    left: 1365px;
+  }
+  .nitenoverbtnleft{
+    left: 655px;
+  }
+  .nitenoverbtnrigth{
+    left: 1547px;
+  }
+  .items-footer{
+    margin-left: 227px;
+  }
+}
+
